@@ -1,0 +1,92 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .containerInput {
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 28px; /* Tamanho do título */
+    color: #343a40; /* Cor do título */
+    margin-bottom: 10px;
+    text-align: center; /* Centralização do título */
+    font-family: 'Arial', sans-serif; /* Fonte do título */
+    font-weight: bold; /* Negrito */
+  }
+  
+  .descricao {
+    font-size: 18px; /* Tamanho da descrição */
+    color: #6c757d; /* Cor da descrição */
+    margin-bottom: 20px;
+    text-align: center; /* Centralização da descrição */
+    font-family: 'Arial', sans-serif; /* Fonte da descrição */
+    line-height: 1.4; /* Maior espaçamento entre linhas */
+  }
+  
+  form {
+    display: flex;
+    gap: 10px; /* Espaçar o input e o botão */
+  }
+  
+  input[type="text"] {
+    flex: 1; /* O input ocupa o espaço restante */
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.2s; /* Transição suave para a borda */
+  }
+  
+  input[type="text"]:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s; /* Transição suave para a cor do fundo */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .containerList {
+    margin-top: 20px;
+  }
+  
+  .containerList span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #343a40;
+  }
+  ul {
+    list-style-type: none; /* Remover marcadores */
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    margin-top: 5px; /* Espaçamento entre os itens */
+    background-color: #ffffff; /* Fundo dos itens */
+    transition: background-color 0.2s; /* Transição suave para a cor de fundo */
+  }
+  
+  li:hover {
+    background-color: #f1f1f1; /* Mudança de cor ao passar o mouse */
+  }
